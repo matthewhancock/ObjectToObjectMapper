@@ -93,7 +93,7 @@ namespace ObjectToObjectMapper
         {
             var config = new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<OrderModel, OrderModel2>();
+                cfg.CreateMap<OrderModel, OrderModel>();
             });
 
             var mapper = new Mapper(config);
